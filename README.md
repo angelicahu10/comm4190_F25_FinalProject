@@ -8,8 +8,8 @@ Final Project Idea - A compatability appliation of an LLM that utilizes personal
 
 ## Dante Scenarios:
 - Scenario 3: Job match
-College roommate match
+- Scenario 4: College roommate match
 
 ## Helen Scenarios
-- Study buddy
-- Content recommendation
+- Scenario 5: Study buddy
+- Scneario 6: Content recommendation
