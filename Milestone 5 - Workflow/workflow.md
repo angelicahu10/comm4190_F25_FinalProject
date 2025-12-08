@@ -27,6 +27,7 @@ graph TD
 ```
 
 ### Explanation:
+Below is an explanation of the workflow that EtheralAI operates on. This can be applied to both general situations, as well as specific situations as we see in our 6 prompts as the algorithm matches users. In a few of the implementation and testing of the workflow, we can see how certain inputs can make the model more complicated or more simplistic depending on what kind of match the user is looking for.
 
 - **Start**: The beginning of the workflow.
 - **Collect Personalized Data**: Data collection is done through text responses, audio profiles, and images.
