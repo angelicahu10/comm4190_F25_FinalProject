@@ -10,6 +10,6 @@ Final Project Idea - A compatability appliation of an LLM that utilizes personal
 - Scenario 3: Job match
 College roommate match
 
-Helen Scenarios
-Study buddy
-Content recommendation
+## Helen Scenarios
+- Study buddy
+- Content recommendation
