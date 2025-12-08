@@ -11,4 +11,4 @@ Milstone 2: created 6 usage scenarios
     Scenario 5: Study buddy
     Scneario 6: Content recommendation
 
-Milestone 3: experimented with different prompting for each scenario, refining prompts to be more specific
+Milestone 3: experimented with different prompting for each scenario, refining prompts to be more specific (tried chatgpt4.0, google gemini, etc.)
