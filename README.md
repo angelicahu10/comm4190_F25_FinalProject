@@ -15,7 +15,7 @@ Final Project Idea - A compatability appliation of an LLM that utilizes personal
 - Scneario 6: Content recommendation
 
 ## Prompting
-As we experimented with prompting our specific scenarios, we noticed the importance of finetuning prompts - specficially with regards to adding constraints and pushing for detailed input information which was necessary to create a profile for each user. Additionally, we updated our prompts to ensure that the t 
+As we experimented with prompting our specific scenarios, we noticed the importance of finetuning prompts - specficially with regards to adding constraints and pushing for detailed input information which was necessary to create a profile for each user. Additionally, we updated our prompts to alter the voice and ouput response depending on the needs/wants of the user.
 
 ## General Workflow Diagram
 ```mermaid
