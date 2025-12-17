@@ -65,7 +65,7 @@ graph TD
     
     M -->|Yes: Ideal Match| N[Confirm Match: Summarize Strengths];
     M -->|No: Not Ideal| O[Feedback LLM: Capture User Reasoning];
-    O --> J; %% Re-run search or refine parameters based on feedback (Loop)
+    O --> J; 
     
    
     N --> P[Wrap Up: Encourage Contact & Offer Study Planning Assistance];
@@ -151,7 +151,8 @@ graph TD
     %% --- Outcome Routing (Adapted for Content) ---
     M -->|Yes: Ideal Match| N[Confirm Match: Summarize Compatibility Strengths];
     M -->|No: Not Ideal| O[Feedback LLM: Capture User Feedback];
-    O --> J; %% Re-run search or refine parameters based on feedback (Loop)
+    O --> J; 
+    %% Re-run search or refine parameters based on feedback (Loop)
     
     %% --- STEP 3: WRAP UP ---
     N --> P[Wrap Up: Encourage More Ratings to Fine-Tune];
