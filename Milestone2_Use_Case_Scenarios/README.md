@@ -1,0 +1,2 @@
+# Milestone #2 - Developing Use Case Scenarios
+In this folder, you will find each of our use case scenarios we came up with to allow for varaiability in the function of the app. Each of us came up with two scenarios that we would then test prompt in Milestone #3. 

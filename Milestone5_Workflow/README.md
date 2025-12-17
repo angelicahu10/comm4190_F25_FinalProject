@@ -1,4 +1,5 @@
-# Creating a Workflow - How does EtheralAI work?
+# Milestone #5 - Creating a Workflow - How does EtheralAI work?
+This milestone wraps up the project and shows the mechanics behind the algorithm that EtherealAI functions on. It displays how user input gets matched to result in a paired output.
 
 ```mermaid
 graph TD

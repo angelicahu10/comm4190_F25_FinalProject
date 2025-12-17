@@ -1,4 +1,4 @@
-## PROGRESS UPDATE
+## Milestone #4 - Progress Update
 
 ### Milestone 1
 Chose to implement EtheralAI over other ideas - a LLM application base to help with match-making in different scenarios
