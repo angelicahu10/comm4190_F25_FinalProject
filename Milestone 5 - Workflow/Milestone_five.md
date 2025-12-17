@@ -41,20 +41,20 @@ End: Interaction Complete (Q): The session concludes successfully.
 graph TD
     A[Start: Student Interaction] --> B{STEP 1: Check Form Submission Status};
 
-    %% --- Conditional Path for Data Gathering ---
+   
     B -->|Form Submitted: YES| C[DB Tool: Retrieve Student Profile Data];
     B -->|Form Submitted: NO| D(Interactive LLM: Gather All Required Data);
     D --> C;
     
     C --> E{Data Validation LLM: Is Data Complete and Unambiguous?};
 
-    %% --- Data Refinement Loop (If Ambiguity Exists) ---
+   
     E -->|No: Ambiguity Found| F(Clarification LLM: Ask 1 Follow-up Question);
     E -->|Yes: Data Confirmed| I;
     F --> G[Wait for Response / Integrate Data];
     G --> I[Finalized Student Profile Vector];
 
-    %% --- STEP 2: RUN COMPATIBILITY ANALYSIS ---
+   
     I --> J[Run Matching Algorithm LLM: Scan DB for >6/10 Matches];
     J --> K[Matching LLM: Calculate Compatibility Score];
 
@@ -62,16 +62,16 @@ graph TD
     
     L --> M{Student Confirmation: Does Match Seem Ideal?};
     
-    %% --- Outcome Routing ---
+    
     M -->|Yes: Ideal Match| N[Confirm Match: Summarize Strengths];
     M -->|No: Not Ideal| O[Feedback LLM: Capture User Reasoning];
     O --> J; %% Re-run search or refine parameters based on feedback (Loop)
     
-    %% --- STEP 3: WRAP UP ---
+   
     N --> P[Wrap Up: Encourage Contact & Offer Study Planning Assistance];
     P --> Q[End: Interaction Complete];
 
-    %% --- Styling ---
+   
     style A fill:#D4E8D4, stroke:#4CAF50, stroke-width:2px;
     style Q fill:#D4E8D4, stroke:#4CAF50, stroke-width:2px;
     style B fill:#FFFACD, stroke:#FFD700;
